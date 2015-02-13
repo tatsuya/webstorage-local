@@ -1,0 +1,33 @@
+{
+  "name": "webstorage-local",
+  "version": "0.0.1",
+  "description": "A webstorage plugin for persistent local file storeage",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec --timeout 4000",
+    "lint": "jshint index.js test"
+  },
+  "dependencies": {
+    "mkdirp": "^0.5.0"
+  },
+  "devDependencies": {
+    "jshint": "^2.6.0",
+    "mocha": "^2.1.0",
+    "rimraf": "^2.2.8",
+    "webstorage": "0.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tatsuyaoiw/webstorage-local.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tatsuyaoiw/webstorage-local/issues"
+  },
+  "homepage": "https://github.com/tatsuyaoiw/webstorage-local",
+  "keywords": [
+    "webstorage",
+    "localstorage"
+  ],
+  "author": "Tatsuya Oiwa <tatsuyaoiw@gmail.com>",
+  "license": "MIT"
+}
