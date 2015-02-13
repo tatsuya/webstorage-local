@@ -1,6 +1,6 @@
 {
   "name": "webstorage-local",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A webstorage plugin for persistent local file storeage",
   "main": "index.js",
   "scripts": {
