@@ -1,6 +1,6 @@
 # webstorage-local
 
-A [webstorage] persistence plugin for local file storeage.
+A [webstorage] persistence plugin for local file storage.
 
 ## Installation
 
