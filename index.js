@@ -62,17 +62,6 @@ LocalStorage.prototype.removeItem = function(key) {
 };
 
 /**
- * Empty all key/value pairs.
- */
-LocalStorage.prototype.clear = function() {
-  var self = this;
-  fs.readdirSync(self.path).forEach(function(filename) {
-    var filepath = join(self.path, filename);
-    fs.unlinkSync(filepath);
-  });
-};
-
-/**
  * Returns a base64 encoded string.
  *
  * @param  {String} str
