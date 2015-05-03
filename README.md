@@ -1,5 +1,7 @@
 # webstorage-local
 
+[![Build Status](https://travis-ci.org/tatsuyaoiw/webstorage-local.svg?branch=master)](https://travis-ci.org/tatsuyaoiw/webstorage-local)
+
 A [webstorage] persistence plugin for local file storage.
 
 ## Installation
